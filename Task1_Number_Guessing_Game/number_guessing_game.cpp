@@ -12,10 +12,7 @@ int main() {
     int guess;
 
     cout << "===== NUMBER GUESSING GAME =====" << endl;
-
-    // TEMPORARY: check the secret number
-    cout << "Secret number is: " << secretNumber << endl;
-
+  
     do {
         cout << "Enter your guess (1-100): ";
         cin >> guess;
